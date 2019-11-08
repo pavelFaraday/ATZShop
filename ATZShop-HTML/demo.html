@@ -1,0 +1,22 @@
+
+<div class="demo">
+	<ul class="list_none">
+    	<li><a href="https://1.envato.market/5xmJb" class="bg-success" title="Buy Now"><i class="fa fa-shopping-cart"></i></a></li>
+    </ul>
+</div>
+<script>
+$(".demo_icon").on("click", function() {
+	$(".demo_list").toggleClass("switch-active");
+	$(this).toggleClass("switch-active");
+	$('body').toggleClass("switch-open");
+});
+$(".color-switch").on("click", "button", function() {
+	$(this).addClass("active").siblings().removeClass("active");
+	$("#layoutstyle").attr("href", "assets/color/" + $(this).val() + ".css");
+});
+$(".color_icon").on("click", function() {
+	$(".color-switch").toggleClass("switch-active");
+	$(this).toggleClass("switch-active");
+	$(this).parent().toggleClass("switch-active");
+});
+</script>
