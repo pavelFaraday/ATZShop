@@ -88,9 +88,17 @@ Version      : 1.2
 	35. Deal Of The Day Css
 */
 
+
+
 .navbar-nav {
 	padding-left: 50px;
 }
+
+.geo-font {
+	font-family: "BPG Mrgvlovani", sans-serif;
+}
+
+/* ------------------------------------------------------ */
 
 /*01. Common Css*/
 body {
@@ -3172,6 +3180,9 @@ body.theme-2 {
 	vertical-align: middle;
 	line-height: 0;
 	padding-right: 10px;
+}
+.categories-btn span {
+	font-size: 16px;
 }
 .list-unstyled li a[aria-expanded="true"] i.plus-icon {
 	display: none;
