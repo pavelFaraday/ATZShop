@@ -94,7 +94,7 @@ Version      : 1.2
 	padding-left: 50px;
 }
 
-.geo-font {
+.geo-font, h1, h2, h3, h4, h5, h6 {
 	font-family: "BPG Mrgvlovani", sans-serif;
 }
 
